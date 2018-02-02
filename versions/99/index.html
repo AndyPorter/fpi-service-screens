@@ -38,12 +38,21 @@
         <div class="image-title">
           <span class="close js-close-screen">✕</span>
           <span class="journey">{{../title}}</span>
-          <h3>{{math @index "+" 1}}. {{caption}}</h3>
+          {{#unless ../nonLinearFlow}}
+            <h3>{{math @index "+" 1}}. {{caption}}</h3>
+          {{ else }}
+            <h3>{{caption}}</h3>
+          {{/unless}}  
+          
         </div>
         <div class="image-wrapper js-open-screen">
             <img src="{{imgref}}" />
         </div>  
-        <div class="arrow">→</div>   
+        {{#unless ../nonLinearFlow}}
+          <div class="arrow">→</div>
+        {{ else }}
+          <div class="spacer"></div>
+        {{/unless}}    
         <div class="note">
           {{#note}}
           <p>{{.}}</p>
