@@ -376,3 +376,16 @@ html.noscroll {
 .prev.button{
 	display: none;
 }
+
+.spacer{
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.image.zoomed-in .spacer{
+	display: none;
+}
+
+.image-set-images .image:last-child .spacer{
+	display: none;
+}

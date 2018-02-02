@@ -1,8 +1,9 @@
 var data = {
-  "version": "Current service (beta). January 2018",
-  "last-updated": "08 January 2018",
+  "version": "Current service (beta). February 2018",
+  "last-updated": "02 February 2018",
   "change-history" : [
-    "title no removed from confirm page"
+    "Added in advance: Welsh summary (due to be deployed in Feb - card:US04) (Other pages)",
+    "Remember to add: new sorry server once work complete (Feb) - (Other pages)"
   ],
   "userjourneys": [            
     {
@@ -216,7 +217,7 @@ var data = {
       },
       {
         "caption": "Sign-in",
-        "imgref": "images/password-reset/07-sign-in.png",
+        "imgref": "images/password-reset/07-sign-in.png"
       },
       {
         "caption": "Search again",
@@ -229,6 +230,7 @@ var data = {
     },
     {
       "title": "Other pages",
+      "nonLinearFlow": "true",
       "path": [{
         "caption": "Terms of use",
         "imgref": "images/other-pages/00-terms-of-use.png"
@@ -259,6 +261,21 @@ var data = {
       {
         "caption": "Signed in elsewhere",
         "imgref": "images/other-pages/00-signed-in-already.png"
+      },
+      {
+        "caption": "Welsh summary",
+        "imgref": "images/other-pages/00-Welsh-summary.png",
+        "note": [
+          "Welsh summary, next page shows English version",
+          "Red text is visually hidden text - for assistive tech like screen readers"
+          ]
+      },
+      {
+        "caption": "Welsh to English summary",
+        "imgref": "images/other-pages/00-English-version-of-Welsh-summary.png",
+        "note": [
+          "English translation of Welsh summary on previous page"
+          ]
       }
       ]
     }

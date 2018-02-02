@@ -214,7 +214,7 @@ var data = {
       },
       {
         "caption": "Sign-in",
-        "imgref": "images/password-reset/07-sign-in.png",
+        "imgref": "images/password-reset/07-sign-in.png"
       },
       {
         "caption": "Search again",
@@ -227,6 +227,7 @@ var data = {
     },
     {
       "title": "Other pages",
+      "nonLinearFlow": "true",
       "path": [{
         "caption": "Terms of use",
         "imgref": "images/other-pages/00-terms-of-use.png"
@@ -257,6 +258,17 @@ var data = {
       {
         "caption": "Signed in elsewhere",
         "imgref": "images/other-pages/00-signed-in-already.png"
+      },
+      {
+        "caption": "Welsh summary",
+        "imgref": "images/other-pages/00-Welsh-summary.png"
+      },
+      {
+        "caption": "Sorry server",
+        "imgref": "images/other-pages/00-sorry-server.png",
+        "note": [
+          "Is the service when all else fails or service turned off for deployment"
+          ]
       }
       ]
     }
