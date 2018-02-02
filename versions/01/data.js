@@ -6,7 +6,7 @@ var data = {
       "title": "Get property information",
       "path": [{
         "caption": "Start and search",
-        "imgref": "images/get-property-information/1.Find-property-information.png",
+        "imgref": "images/get-property-information/1.Find-property-information.png"
       },{
         "caption": "Select property",
         "imgref": "images/get-property-information/2.Select-property.png",
@@ -37,7 +37,7 @@ var data = {
       
       ]
     },{
-      "title": "Variations of the register vew",
+      "title": "Variations of the register view",
       "path": [{
         "caption": "Alpha final version",
         "imgref": "images/register-views/A.Official-register.of-title-DT122047.png"
