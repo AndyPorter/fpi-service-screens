@@ -227,6 +227,7 @@ var data = {
     },
     {
       "title": "Other pages",
+      "nonLinearFlow": "true",
       "path": [{
         "caption": "Terms of use",
         "imgref": "images/other-pages/00-terms-of-use.png"

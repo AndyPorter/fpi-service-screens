@@ -1,8 +1,9 @@
 var data = {
-  "version": "Current service (beta). January 2018",
-  "last-updated": "08 January 2018",
+  "version": "Current service (beta). February 2018",
+  "last-updated": "02 February 2018",
   "change-history" : [
-    "Welsh summary (due to be deployed in Feb - card:US04) (Other pages screens 8 and 9)"
+    "Added in advance: Welsh summary (due to be deployed in Feb - card:US04) (Other pages)",
+    "Remember to add: new sorry server once work complete (Feb) - (Other pages)"
   ],
   "userjourneys": [            
     {
