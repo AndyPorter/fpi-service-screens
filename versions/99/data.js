@@ -2,7 +2,7 @@ var data = {
   "version": "Current service (beta). January 2018",
   "last-updated": "08 January 2018",
   "change-history" : [
-    "title no removed from confirm page"
+    "Welsh summary (due to be deployed in Feb - card:US04) (Other pages screens 8 and 9)"
   ],
   "userjourneys": [            
     {
@@ -216,7 +216,7 @@ var data = {
       },
       {
         "caption": "Sign-in",
-        "imgref": "images/password-reset/07-sign-in.png",
+        "imgref": "images/password-reset/07-sign-in.png"
       },
       {
         "caption": "Search again",
@@ -259,6 +259,21 @@ var data = {
       {
         "caption": "Signed in elsewhere",
         "imgref": "images/other-pages/00-signed-in-already.png"
+      },
+      {
+        "caption": "Welsh summary",
+        "imgref": "images/other-pages/00-Welsh-summary.png",
+        "note": [
+          "Welsh summary, next page shows English version",
+          "Red text is visually hidden text - for assistive tech like screen readers"
+          ]
+      },
+      {
+        "caption": "Welsh to English summary",
+        "imgref": "images/other-pages/00-English-version-of-Welsh-summary.png",
+        "note": [
+          "English translation of Welsh summary on previous page"
+          ]
       }
       ]
     }

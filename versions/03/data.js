@@ -214,7 +214,7 @@ var data = {
       },
       {
         "caption": "Sign-in",
-        "imgref": "images/password-reset/07-sign-in.png",
+        "imgref": "images/password-reset/07-sign-in.png"
       },
       {
         "caption": "Search again",
@@ -257,6 +257,10 @@ var data = {
       {
         "caption": "Signed in elsewhere",
         "imgref": "images/other-pages/00-signed-in-already.png"
+      },
+      {
+        "caption": "Welsh summary",
+        "imgref": "images/other-pages/00-Welsh-summary.png"
       }
       ]
     }
