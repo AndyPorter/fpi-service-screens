@@ -261,6 +261,13 @@ var data = {
       {
         "caption": "Welsh summary",
         "imgref": "images/other-pages/00-Welsh-summary.png"
+      },
+      {
+        "caption": "Sorry server",
+        "imgref": "images/other-pages/00-sorry-server.png",
+        "note": [
+          "Is the service when all else fails or service turned off for deployment"
+          ]
       }
       ]
     }
