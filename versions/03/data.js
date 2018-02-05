@@ -1,6 +1,11 @@
 var data = {
   "version": "Beta pass. December 2017",
   "last-updated": "18 December 2017",
+  "change-summary" : [
+    "Choose the title wanted before signing in - sign-in as late as possible",
+    "Vastly improved search & results - all addresses in a Postcode, 100 results, clearer onward journey to FaP",
+    "Page per address - help picking the right title record"
+  ],
   "userjourneys": [            
     {
       "title": "Get property summary information",
@@ -36,8 +41,8 @@ var data = {
           "* all that we can currently link to this address (percent?)",
           "first version of this page",
           "more examples of results and property page below"
-          ]
-
+          ],
+        "more-info-url": "https://docs.google.com/document/d/1mHyulmCsQkwIhXMNL6PGNTDUhbocMcUFfDhmr8tgROA/edit"
       },
       {
         "caption": "Property title",

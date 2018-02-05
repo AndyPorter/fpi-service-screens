@@ -389,3 +389,34 @@ html.noscroll {
 .image-set-images .image:last-child .spacer{
 	display: none;
 }
+
+.image.zoomed-in .more-info-url{
+	display: block;
+	float: right;
+	width: 28%;
+}
+.image.zoomed-in .more-info-url p{
+	white-space: normal;
+	margin: 0 30px 25px 25px;
+	font-size: 19px;
+}
+
+.more-info-url{
+	display: none;
+}
+.more-info-url.visible{
+	display: block;
+	margin-top: 25px;
+}
+
+.more-info-url p{
+	font-size: 16px;
+	margin: 0 0 10px 0;
+	font-weight: normal;
+	margin-right: 25px;
+}
+
+
+.image.zoomed-in .page-navigation p{
+	margin: 0 30px 25px 25px;
+}

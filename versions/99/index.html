@@ -56,6 +56,13 @@
           {{#note}}
           <p>{{.}}</p>
           {{/note}}
+        </div>
+        {{#if more-info-url}}
+          <div class="more-info-url">
+            <p><a target="_blank" href="{{more-info-url}}">more information (google doc, access required)</a></p>
+          </div>
+        {{/if}}
+        <div class="page-navigation">
           <p class="next button js-next-screen">Next</p>
           <p class="prev button js-prev-screen">Prev</p>
         </div>
@@ -65,12 +72,12 @@
     </div>
     {{/userjourneys}}
 
-    {{#if change-history}}
-      <h2>Changes since previous set of screens</h2>
+    {{#if change-summary}}
+      <h2>Changes since previous version</h2>
       <ul style="margin-bottom: 2em;">
-      {{#change-history}}
+      {{#change-summary}}
         <li>{{.}}</li>
-      {{/change-history}}
+      {{/change-summary}}
       </ul>
     {{/if}}
 
