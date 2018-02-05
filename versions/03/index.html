@@ -56,14 +56,32 @@
           {{#note}}
           <p>{{.}}</p>
           {{/note}}
+        </div>
+        {{#if more-info-url}}
+          <div class="more-info-url">
+            <p><a target="_blank" href="{{more-info-url}}">more information (google doc, access required)</a></p>
+          </div>
+        {{/if}}
+        <div class="page-navigation">
           <p class="next button js-next-screen">Next</p>
           <p class="prev button js-prev-screen">Prev</p>
         </div>
+        
       </div>
       {{/path}}
     </div>
     </div>
     {{/userjourneys}}
+
+
+    {{#if change-summary}}
+      <h2>Changes since previous version</h2>
+      <ul style="margin-bottom: 2em;">
+      {{#change-summary}}
+        <li>{{.}}</li>
+      {{/change-summary}}
+      </ul>
+    {{/if}}
 
     <p class="meta">Last updated on {{last-updated}}.
       These screenshots are subject to change and do not necessarily reflect any current or

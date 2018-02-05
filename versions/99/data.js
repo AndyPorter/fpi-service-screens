@@ -1,7 +1,7 @@
 var data = {
   "version": "Current service (beta). February 2018",
   "last-updated": "02 February 2018",
-  "change-history" : [
+  "change-summary" : [
     "Added in advance: Welsh summary (due to be deployed in Feb - card:US04) (Other pages)",
     "Remember to add: new sorry server once work complete (Feb) - (Other pages)"
   ],
@@ -15,7 +15,8 @@ var data = {
         "note": [
           "New service for basic searches",
           "Not Green button (that's Find A Property - older service)"
-          ]
+          ],
+        "more-info-url": "https://docs.google.com/document/d/1mHyulmCsQkwIhXMNL6PGNTDUhbocMcUFfDhmr8tgROA/edit"
       },
       {
         "caption": "Search",
